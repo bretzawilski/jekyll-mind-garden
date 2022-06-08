@@ -1,12 +1,4 @@
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.16.0/d3.min.js"
-  integrity="sha512-FHsFVKQ/T1KWJDGSbrUhTJyS1ph3eRrxI228ND0EGaEp6v4a/vGwPWd3Dtd/+9cI7ccofZvl/wulICEurHN1pg=="
-  crossorigin="anonymous"></script>
-
-<div id="graph-wrapper">
-  <script>
-    const MINIMAL_NODE_SIZE = 8;
+const MINIMAL_NODE_SIZE = 8;
     const MAX_NODE_SIZE = 12;
     const ACTIVE_RADIUS_FACTOR = 1.5;
     const STROKE = 1;
@@ -260,5 +252,3 @@
       if (str.length <= maxLen) return str;
       return str.substr(0, str.lastIndexOf(separator, maxLen)) + '...';
     }
-  </script>
-</div>
