@@ -2,7 +2,7 @@
 layout: note
 title: zettelkasten
 id: zettelkasten
-tags: serendipity, zettelkasten
+tags: zettelkasten serendipity
 type: note
 fileName: zettelkasten
 ---

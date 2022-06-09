@@ -1,0 +1,35 @@
+---
+layout: note
+---
+
+{{ content }}
+
+<h2>Map of Content</h2>
+<p>
+  This node is a [[MOC]]. Please see the below pages for a collection of posts
+  tagged with: {{ page.tags[0] }}
+</p>
+
+<ul>
+  {% for note in site.notes %} {% if note.tags[0] == page.tags[0] %}
+  <li>
+    <a class="internal-link" href="{{ note.url }}">{{ note.title }}</a>
+  </li>
+  {% endif %} {% if note.tags[1] == page.tags[0] %}
+  <li>
+    <a class="internal-link" href="{{ note.url }}">{{ note.title }}</a>
+  </li>
+  {% endif %} {% if note.tags[2] == page.tags[0] %}
+  <li>
+    <a class="internal-link" href="{{ note.url }}">{{ note.title }}</a>
+  </li>
+  {% endif %} {% if note.tags[3] == page.tags[0] %}
+  <li>
+    <a class="internal-link" href="{{ note.url }}">{{ note.title }}</a>
+  </li>
+  {% endif %} {% if note.tags[4] == page.tags[0] %}
+  <li>
+    <a class="internal-link" href="{{ note.url }}">{{ note.title }}</a>
+  </li>
+  {% endif %} {% endfor %}
+</ul>

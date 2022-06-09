@@ -1,7 +1,7 @@
 ---
 layout: note
 title: atomic notes
-tags: evergreen, zettelkasten
+tags: evergreen zettelkasten
 type: note
 fileName: atomic-notes
 id: atomic notes

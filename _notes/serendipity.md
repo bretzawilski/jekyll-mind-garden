@@ -1,6 +1,10 @@
 ---
+layout: moc
 title: serendipity
-layout: note
+tags: serendipity
+type: moc
+fileName: serendipity
+id: serendipity
 ---
 
 “Indeed, there are two key aspects to serendipity, only the first of which is its accidental nature and the delight and surprise of something unexpected (e.g., the synthesis of copper phthalocyanine). The second is the breakthrough or discovery made by drawing an unexpected connection – the sagacity (e.g., using copper phthalocyanine as dye).” ([André et al., 2009, p. 305](zotero://select/library/items/YK3TTMXN))

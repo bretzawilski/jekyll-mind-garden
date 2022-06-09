@@ -1,7 +1,7 @@
 ---
 layout: note
 title: Tools that foster serendipity must rely upon formal and forensic materiality
-tags: serendipity, materiality, zettelkasten, evergreen
+tags: serendipity materiality zettelkasten evergreen
 type: note
 fileName: tools-that-foster-serendipity-must-rely-upon-formal-and-forensic-materiality
 id: tools that foster
